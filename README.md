@@ -2,6 +2,8 @@
 Check The Mole is a skin lesions classifier which takes the picture of the mole/lesion and tells if it looks more like a non-cancerous thing or like a cancerous one. 
 
 This project is inspired by my personal experience as a parent when I had quite a stressful time waiting for test results for my kid. Having an approximation of how dangerous and urgent the lesion is reduces the stress of waiting for clear result. It also can help the specialists to be alert and extra attentive, providing earlier and more accurate skin cancer diagnostics.
+
+Demo is here: https://share.streamlit.io/nataliakra/check_the_mole/main/streamlit_app_CNN_binary_new.py
 ## Dataset
 The dataset for this repo can be found [here](https://drive.google.com/file/d/1qQhg56kZ8Tqh4Cv0a7Tjvpnx6YcnOzPG/view?usp=sharing).
 The initial dataset is [Kaggle Skin Cancer MNIST](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000). During the data analysis I found that the set already contains augmented images so that one lesion (tracked with lesion_id in HAM10000_metadata.csv) may have from one to six corresponding pictures. 
